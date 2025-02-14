@@ -23,7 +23,7 @@ const images = [
     alt: "Photo 5"
   }, 
   {
-    url: "/images/six.jpg",
+    url: "./images/six.jpg",
     alt: "Photo 6"
   }, 
   {
