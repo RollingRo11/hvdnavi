@@ -86,20 +86,20 @@ function App() {
 
   return (
     <div className="min-h-[200vh] bg-gradient-to-br from-pink-400 via-pink-200 to-sky-400">
-      <div className="sticky top-0 min-h-screen flex items-center justify-center p-4">
-        <div className="max-w-2xl w-full" ref={containerRef}>
-          <div className={`transform transition-all duration-1000 ${showMessage ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'}`}>
-            <div className="bg-white/80 backdrop-blur-sm p-8 rounded-2xl shadow-xl border border-pink-200">
+    <div className="sticky top-0 min-h-screen flex items-center justify-center p-4">
+      <div className="max-w-2xl w-full mx-4 sm:mx-6" ref={containerRef}>
+        <div className={`transform transition-all duration-1000 ${showMessage ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'}`}>
+          <div className="bg-white/80 backdrop-blur-sm p-4 sm:p-8 rounded-2xl shadow-xl border border-pink-200"> 
               <div className="flex justify-center mb-6">
                 <Heart className="w-16 h-16 text-rose-500 animate-pulse" fill="currentColor" />
               </div>
               
-              <h1 className="text-4xl md:text-5xl font-bold text-center text-rose-600 mb-6">
+              <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-center text-rose-600 mb-6">
                 Happy Valentine's Day, Navi!
               </h1>
               
               <div className="space-y-6 text-center">
-                <p className="text-xl md:text-2xl text-gray-700 leading-relaxed">
+                 <p className="text-lg sm:text-xl md:text-2xl text-gray-700 leading-relaxed">
                   I LOVE YOU PAONKIN 🎃
                 </p>
                 
@@ -113,7 +113,7 @@ function App() {
                   To think it all started with a proposition.
                 </p>
                 
-                <div className="pt-6 relative aspect-square w-[400px] mx-auto overflow-hidden rounded-lg shadow-lg">
+                <div className="pt-6 relative aspect-square w-full max-w-[400px] mx-auto overflow-hidden rounded-lg shadow-lg">
                   {images.map((image, index) => (
                     <img
                       key={image.url}
