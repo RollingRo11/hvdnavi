@@ -3,23 +3,23 @@ import { Heart } from 'lucide-react';
 
 const images = [
   {
-    url: "/images/one.jpg",
+    url: "./images/one.jpg",
     alt: "Photo 1"
   },
   {
-    url: "/images/two.jpg",
+    url: "./images/two.jpg",
     alt: "Photo 2"
   },
   {
-    url: "/images/three.jpg",
+    url: "./images/three.jpg",
     alt: "Photo 3"
   },
   {
-    url: "/images/four.jpg",
+    url: "./images/four.jpg",
     alt: "Photo 4"
   },
   {
-    url: "/images/five.jpg",
+    url: "./images/five.jpg",
     alt: "Photo 5"
   }, 
   {
@@ -27,31 +27,31 @@ const images = [
     alt: "Photo 6"
   }, 
   {
-    url: "/images/seven.jpg",
+    url: "./images/seven.jpg",
     alt: "Photo 7"
   },
   {
-    url: "/images/eight.jpg",
+    url: "./images/eight.jpg",
     alt: "Photo 8"
   },
   {
-    url: "/images/nine.jpg",
+    url: "./images/nine.jpg",
     alt: "Photo 9"
   },
   {
-    url: "/images/ten.jpg",
+    url: "./images/ten.jpg",
     alt: "Photo 10"
   },
   {
-    url: "/images/eleven.jpg",
+    url: "./images/eleven.jpg",
     alt: "Photo 11"
   },
   {
-    url: "/images/twelve.jpg",
+    url: "./images/twelve.jpg",
     alt: "Photo 12"
   },
   {
-    url: "/images/thirteen.jpg",
+    url: "./images/thirteen.jpg",
     alt: "Photo 13"
   }
 ];
